@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: sms-bombing
+Implementation-Version: v0.0.1
+Built-By: Administrator
+Implementation-Vendor-Id: com.galaxyf.sms
+Build-Jdk: 1.8.0_111
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

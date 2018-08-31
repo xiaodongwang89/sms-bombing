@@ -1,0 +1,17 @@
+server:
+  port: 8077
+  
+third:
+  server:
+    sms_service:
+      enable: true
+      send_msg_url: http://10.11.18.36:8080/message/mCode/sendMsg.do
+      msg_key: MESSAGE_CONTENT
+      msg_template: BUSINESS_OPERATION_KEY
+message:
+  file:
+    path : templates/msg/msg.txt
+#日志
+logging:
+  config: classpath:log4j2.xml
+    
