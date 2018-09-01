@@ -124,7 +124,6 @@
      <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        使用springloaded实现热部署
         <dependencies>
           <dependency>
             <groupId>org.springframework</groupId>
