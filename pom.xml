@@ -121,7 +121,7 @@
   
   <build>
     <plugins>
-      <!-- <plugin>
+     <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         使用springloaded实现热部署
@@ -132,7 +132,7 @@
             <version>1.2.8.RELEASE</version>
           </dependency>
         </dependencies>
-      </plugin> -->
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -149,7 +149,7 @@
           <encoding>UTF-8</encoding>
           <compilerArguments>
             <verbose/>
-            <bootclasspath>${java.home}/lib/rt.jar:${java.home}/lib/jce.jar</bootclasspath>
+            <bootclasspath>${java.home}/lib/rt.jar;${java.home}/lib/jce.jar</bootclasspath>
           </compilerArguments>
         </configuration>
       </plugin>
